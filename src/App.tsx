@@ -580,7 +580,7 @@ const App: React.FC = () => {
             
             <div className="mt-8">
               <a 
-                href="mailto:hello@edgecraftai.com?subject=EdgeCraft%20AI%20-%20Investment%20Opportunity&body=Hi%20EdgeCraft%20AI%20team,%0A%0AI'm%20interested%20in%20learning%20more%20about%20EdgeCraft%20AI%20as%20an%20investment%20opportunity.%20Please%20send%20me:%0A%0A-%20Company%20pitch%20deck%0A-%20Financial%20projections%0A-%20Market%20opportunity%20analysis%0A-%20Team%20backgrounds%20and%20experience%0A-%20Technology%20differentiation%0A-%20Current%20traction%20and%20metrics%0A%0AThank%20you!"
+                href="mailto:hello@edgecraftai.com?subject=EdgeCraft%20AI%20-%20Let's%20Connect&body=Hi%20EdgeCraft%20AI%20team,%0A%0AI'm%20interested%20in%20learning%20more%20about%20EdgeCraft%20AI%20and%20your%20transformational%20AI%20applications.%0A%0APlease%20get%20in%20touch%20to%20discuss:%0A%0A-%20%0A-%20%0A-%20%0A%0AThank%20you!"
                 className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-8 py-4 rounded-full font-semibold hover:from-blue-600 hover:to-purple-600 transition-all transform hover:scale-105 active:scale-95 inline-block touch-manipulation"
               >
                 Connect with EdgeCraft
