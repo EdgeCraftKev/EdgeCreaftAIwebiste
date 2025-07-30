@@ -41,7 +41,7 @@ const App: React.FC = () => {
                   className="h-5 w-auto"
                 />
                 <img 
-                  src="/aws logo.png" 
+                  src="/Amazon_Web_Services_Logo.svg.png" 
                   alt="AWS" 
                   className="h-5 w-auto"
                 />
