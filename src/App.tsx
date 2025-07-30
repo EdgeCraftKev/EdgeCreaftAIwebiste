@@ -492,30 +492,6 @@ const App: React.FC = () => {
             <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-8">
               Our founding team brings over 60 years of combined experience in cloud architecture, software development, startup scaling, strategic alliances, and go-to-market execution.
             </p>
-            
-            {/* Experience Stats */}
-            <div className="grid grid-cols-2 lg:grid-cols-5 gap-6 mb-12">
-              <div className="text-center">
-                <div className="text-3xl sm:text-4xl font-bold text-blue-600 mb-2">60+</div>
-                <div className="text-sm sm:text-base text-gray-600 font-medium">Years Combined Experience</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl sm:text-4xl font-bold text-purple-600 mb-2">15+</div>
-                <div className="text-sm sm:text-base text-gray-600 font-medium">Startups Launched</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl sm:text-4xl font-bold text-indigo-600 mb-2">$500M+</div>
-                <div className="text-sm sm:text-base text-gray-600 font-medium">Revenue Generated</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl sm:text-4xl font-bold text-pink-600 mb-2">100+</div>
-                <div className="text-sm sm:text-base text-gray-600 font-medium">Strategic Partnerships</div>
-              </div>
-              <div className="text-center lg:col-span-1 col-span-2">
-                <div className="text-3xl sm:text-4xl font-bold text-purple-600 mb-2">3</div>
-                <div className="text-sm sm:text-base text-gray-600 font-medium">Successful Exits</div>
-              </div>
-            </div>
           </div>
           
           {/* Core Expertise Areas */}
@@ -607,7 +583,7 @@ const App: React.FC = () => {
                 href="mailto:hello@edgecraftai.com?subject=EdgeCraft%20AI%20-%20Investment%20Opportunity&body=Hi%20EdgeCraft%20AI%20team,%0A%0AI'm%20interested%20in%20learning%20more%20about%20EdgeCraft%20AI%20as%20an%20investment%20opportunity.%20Please%20send%20me:%0A%0A-%20Company%20pitch%20deck%0A-%20Financial%20projections%0A-%20Market%20opportunity%20analysis%0A-%20Team%20backgrounds%20and%20experience%0A-%20Technology%20differentiation%0A-%20Current%20traction%20and%20metrics%0A%0AThank%20you!"
                 className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-8 py-4 rounded-full font-semibold hover:from-blue-600 hover:to-purple-600 transition-all transform hover:scale-105 active:scale-95 inline-block touch-manipulation"
               >
-                Connect with Our Team
+                Connect with EdgeCraft
               </a>
             </div>
           </div>
