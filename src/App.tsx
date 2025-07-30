@@ -480,6 +480,140 @@ const App: React.FC = () => {
         </div>
       </section>
 
+      {/* Team Section - AI Expertise for the New Era */}
+      <section className="py-12 lg:py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4 leading-tight">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
+                AI Expertise for the New Era
+              </span>
+            </h2>
+            <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-8">
+              Our founding team brings over 60 years of combined experience in cloud architecture, software development, startup scaling, strategic alliances, and go-to-market execution.
+            </p>
+            
+            {/* Experience Stats */}
+            <div className="grid grid-cols-2 lg:grid-cols-5 gap-6 mb-12">
+              <div className="text-center">
+                <div className="text-3xl sm:text-4xl font-bold text-blue-600 mb-2">60+</div>
+                <div className="text-sm sm:text-base text-gray-600 font-medium">Years Combined Experience</div>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl sm:text-4xl font-bold text-purple-600 mb-2">15+</div>
+                <div className="text-sm sm:text-base text-gray-600 font-medium">Startups Launched</div>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl sm:text-4xl font-bold text-indigo-600 mb-2">$500M+</div>
+                <div className="text-sm sm:text-base text-gray-600 font-medium">Revenue Generated</div>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl sm:text-4xl font-bold text-pink-600 mb-2">100+</div>
+                <div className="text-sm sm:text-base text-gray-600 font-medium">Strategic Partnerships</div>
+              </div>
+              <div className="text-center lg:col-span-1 col-span-2">
+                <div className="text-3xl sm:text-4xl font-bold text-purple-600 mb-2">3</div>
+                <div className="text-sm sm:text-base text-gray-600 font-medium">Successful Exits</div>
+              </div>
+            </div>
+          </div>
+          
+          {/* Core Expertise Areas */}
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6 text-center">
+              <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Building2 className="h-8 w-8 text-white" />
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Cloud Architecture</h3>
+              <p className="text-gray-600 leading-relaxed">Enterprise-scale cloud solutions across AWS, Google Cloud, and Azure with proven scalability</p>
+              <div className="mt-4 flex justify-center space-x-2">
+                <span className="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full">AWS</span>
+                <span className="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full">GCP</span>
+                <span className="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full">Azure</span>
+              </div>
+            </div>
+            
+            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 text-center">
+              <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Sparkles className="h-8 w-8 text-white" />
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">AI & Machine Learning</h3>
+              <p className="text-gray-600 leading-relaxed">Deep expertise in LLMs, computer vision, and AI-powered applications at enterprise scale</p>
+              <div className="mt-4 flex justify-center space-x-2">
+                <span className="px-3 py-1 bg-purple-100 text-purple-800 text-xs font-medium rounded-full">OpenAI</span>
+                <span className="px-3 py-1 bg-purple-100 text-purple-800 text-xs font-medium rounded-full">Gemini</span>
+                <span className="px-3 py-1 bg-purple-100 text-purple-800 text-xs font-medium rounded-full">Claude</span>
+              </div>
+            </div>
+            
+            <div className="bg-gradient-to-br from-indigo-50 to-blue-50 rounded-2xl p-6 text-center sm:col-span-2 lg:col-span-1">
+              <div className="w-16 h-16 bg-gradient-to-r from-indigo-500 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Users className="h-8 w-8 text-white" />
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Startup Scaling</h3>
+              <p className="text-gray-600 leading-relaxed">Proven track record of scaling startups from concept to exit with strategic partnerships</p>
+              <div className="mt-4 flex justify-center space-x-2">
+                <span className="px-3 py-1 bg-indigo-100 text-indigo-800 text-xs font-medium rounded-full">GTM</span>
+                <span className="px-3 py-1 bg-indigo-100 text-indigo-800 text-xs font-medium rounded-full">Sales</span>
+                <span className="px-3 py-1 bg-indigo-100 text-indigo-800 text-xs font-medium rounded-full">Alliances</span>
+              </div>
+            </div>
+          </div>
+          
+          {/* Technology Leadership */}
+          <div className="bg-gradient-to-r from-gray-900 to-gray-800 rounded-3xl p-8 text-white text-center">
+            <h3 className="text-2xl sm:text-3xl font-bold mb-4">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
+                Technology Leadership That Delivers
+              </span>
+            </h3>
+            <p className="text-gray-300 text-lg mb-8 max-w-3xl mx-auto leading-relaxed">
+              From Fortune 500 enterprises to high-growth startups, our team has consistently delivered transformational technology solutions that drive real business outcomes.
+            </p>
+            
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div className="text-center">
+                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <Building2 className="h-6 w-6 text-white" />
+                </div>
+                <div className="text-2xl font-bold text-blue-400 mb-1">Fortune 500</div>
+                <div className="text-gray-400 text-sm">Enterprise Clients</div>
+              </div>
+              <div className="text-center">
+                <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <Sparkles className="h-6 w-6 text-white" />
+                </div>
+                <div className="text-2xl font-bold text-purple-400 mb-1">AI-First</div>
+                <div className="text-gray-400 text-sm">Architecture Approach</div>
+              </div>
+              <div className="text-center">
+                <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-red-500 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <Users className="h-6 w-6 text-white" />
+                </div>
+                <div className="text-2xl font-bold text-pink-400 mb-1">Global</div>
+                <div className="text-gray-400 text-sm">Team Distribution</div>
+              </div>
+              <div className="text-center">
+                <div className="w-12 h-12 bg-gradient-to-r from-indigo-500 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <DollarSign className="h-6 w-6 text-white" />
+                </div>
+                <div className="text-2xl font-bold text-indigo-400 mb-1">Proven</div>
+                <div className="text-gray-400 text-sm">Revenue Growth</div>
+              </div>
+            </div>
+            
+            <div className="mt-8">
+              <a 
+                href="mailto:hello@edgecraftai.com?subject=EdgeCraft%20AI%20-%20Investment%20Opportunity&body=Hi%20EdgeCraft%20AI%20team,%0A%0AI'm%20interested%20in%20learning%20more%20about%20EdgeCraft%20AI%20as%20an%20investment%20opportunity.%20Please%20send%20me:%0A%0A-%20Company%20pitch%20deck%0A-%20Financial%20projections%0A-%20Market%20opportunity%20analysis%0A-%20Team%20backgrounds%20and%20experience%0A-%20Technology%20differentiation%0A-%20Current%20traction%20and%20metrics%0A%0AThank%20you!"
+                className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-8 py-4 rounded-full font-semibold hover:from-blue-600 hover:to-purple-600 transition-all transform hover:scale-105 active:scale-95 inline-block touch-manipulation"
+              >
+                Connect with Our Team
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
