@@ -40,39 +40,39 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onToggle }): JSX.Elemen
             <nav className="p-4">
               <div className="space-y-4">
                 <a
+                  href="#features"
+                  className="block text-gray-600 hover:text-gray-900 transition-colors py-3 text-base sm:text-lg touch-manipulation"
+                  onClick={handleLinkClick}
+                >
+                  Features
+                </a>
+                <a
+                  href="#solutions"
+                  className="block text-gray-600 hover:text-gray-900 transition-colors py-3 text-base sm:text-lg touch-manipulation"
+                  onClick={handleLinkClick}
+                >
+                  Solutions
+                </a>
+                <a
                   href="#collabme"
                   className="block text-gray-600 hover:text-gray-900 transition-colors py-3 text-base sm:text-lg touch-manipulation"
                   onClick={handleLinkClick}
                 >
-                  Product
+                  CollabMe
                 </a>
                 <a
                   href="#pricing"
                   className="block text-gray-600 hover:text-gray-900 transition-colors py-3 text-base sm:text-lg touch-manipulation"
                   onClick={handleLinkClick}
                 >
-                  Market
-                </a>
-                <a
-                  href="mailto:hello@edgecraftai.com?subject=Investment%20Opportunity%20-%20EdgeCraft%20AI&body=Hi%20EdgeCraft%20AI%20team,%0A%0AI'm%20interested%20in%20learning%20more%20about%20investment%20opportunities.%20Please%20send%20me%20the%20pitch%20deck.%0A%0AThank%20you!"
-                  className="block text-gray-600 hover:text-gray-900 transition-colors py-3 text-base sm:text-lg touch-manipulation"
-                  onClick={handleLinkClick}
-                >
-                  Investors
-                </a>
-                <a
-                  href="#team"
-                  className="block text-gray-600 hover:text-gray-900 transition-colors py-3 text-base sm:text-lg touch-manipulation"
-                  onClick={handleLinkClick}
-                >
-                  Team
+                  Pricing
                 </a>
                 <button 
-                  className="w-full bg-gradient-to-r from-green-500 to-emerald-500 text-white px-6 py-3 sm:py-4 rounded-full hover:from-green-600 hover:to-emerald-600 transition-all mt-6 text-base sm:text-lg font-semibold touch-manipulation"
-                  aria-label="Investment opportunity"
-                  onClick={() => window.location.href = 'mailto:hello@edgecraftai.com?subject=Series%20A%20Investment%20-%20EdgeCraft%20AI&body=Hi%20EdgeCraft%20AI%20team,%0A%0AI%27m%20interested%20in%20discussing%20the%20Series%20A%20investment%20opportunity.%20Please%20send%20me%20the%20pitch%20deck.%0A%0AThank%20you!'}
+                  className="w-full bg-gradient-to-r from-pink-500 to-purple-500 text-white px-6 py-3 sm:py-4 rounded-full hover:from-pink-600 hover:to-purple-600 transition-all mt-6 text-base sm:text-lg font-semibold touch-manipulation"
+                  aria-label="Get started with CollabMe"
+                  onClick={() => window.location.href = 'mailto:hello@edgecraftai.com?subject=CollabMe%20-%20Get%20Started%20Request&body=Hi%20EdgeCraft%20AI%20team,%0A%0AI%27m%20ready%20to%20get%20started%20with%20CollabMe%20for%20my%20event.%20Please%20help%20me%20with:%0A%0A-%20Setting%20up%20my%20CollabMe%20account%0A-%20Choosing%20the%20right%20plan%20for%20my%20event%0A-%20Next%20steps%20to%20begin%0A%0AEvent%20details:%0A-%20Event%20type:%20%0A-%20Expected%20date:%20%0A-%20Estimated%20number%20of%20contributors:%20%0A%0AThank%20you!'}
                 >
-                  Invest Now
+                  Get Started
                 </button>
               </div>
             </nav>
