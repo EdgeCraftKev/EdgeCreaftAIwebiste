@@ -23,15 +23,21 @@ const Header: React.FC = (): JSX.Element => {
           
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-6 xl:space-x-8">
-            <a href="#about" className="text-gray-600 hover:text-gray-900 transition-colors">Features</a>
-            <a href="#solutions" className="text-gray-600 hover:text-gray-900 transition-colors">Solutions</a>
-            <a href="#collabme" className="text-gray-600 hover:text-gray-900 transition-colors">CollabMe</a>
-            <a href="#pricing" className="text-gray-600 hover:text-gray-900 transition-colors">Pricing</a>
-            <button 
-              className="bg-gradient-to-r from-pink-500 to-purple-500 text-white px-4 xl:px-6 py-2 rounded-full hover:from-pink-600 hover:to-purple-600 transition-all touch-manipulation text-sm xl:text-base"
-              aria-label="Get started with CollabMe"
+            <a href="#collabme" className="text-gray-600 hover:text-gray-900 transition-colors">Product</a>
+            <a href="#pricing" className="text-gray-600 hover:text-gray-900 transition-colors">Market</a>
+            <a 
+              href="mailto:hello@edgecraftai.com?subject=Investment%20Opportunity%20-%20EdgeCraft%20AI&body=Hi%20EdgeCraft%20AI%20team,%0A%0AI'm%20interested%20in%20learning%20more%20about%20investment%20opportunities.%20Please%20send%20me%20the%20pitch%20deck.%0A%0AThank%20you!"
+              className="text-gray-600 hover:text-gray-900 transition-colors"
             >
-              Get Started
+              Investors
+            </a>
+            <a href="#team" className="text-gray-600 hover:text-gray-900 transition-colors">Team</a>
+            <button 
+              onClick={() => window.location.href = 'mailto:hello@edgecraftai.com?subject=Series%20A%20Investment%20-%20EdgeCraft%20AI&body=Hi%20EdgeCraft%20AI%20team,%0A%0AI%27m%20interested%20in%20discussing%20the%20Series%20A%20investment%20opportunity.%20Please%20send%20me%20the%20pitch%20deck.%0A%0AThank%20you!'}
+              className="bg-gradient-to-r from-green-500 to-emerald-500 text-white px-4 xl:px-6 py-2 rounded-full hover:from-green-600 hover:to-emerald-600 transition-all touch-manipulation text-sm xl:text-base font-semibold"
+              aria-label="Investment opportunity"
+            >
+              Invest Now
             </button>
           </nav>
 
