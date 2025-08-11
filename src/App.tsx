@@ -536,7 +536,6 @@ const App: React.FC = () => {
                 <p className="text-gray-600">Our solutions scale to improve life on Earth for people everywhere</p>
               </div>
             </div>
-            </p>
           </div>
           
           {/* Core Expertise Areas */}
