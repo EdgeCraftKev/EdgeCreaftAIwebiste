@@ -40,18 +40,11 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onToggle }): JSX.Elemen
             <nav className="p-4">
               <div className="space-y-4">
                 <a
-                  href="#features"
+                  href="#about"
                   className="block text-gray-600 hover:text-gray-900 transition-colors py-3 text-base sm:text-lg touch-manipulation"
                   onClick={handleLinkClick}
                 >
-                  Features
-                </a>
-                <a
-                  href="#solutions"
-                  className="block text-gray-600 hover:text-gray-900 transition-colors py-3 text-base sm:text-lg touch-manipulation"
-                  onClick={handleLinkClick}
-                >
-                  Solutions
+                  About
                 </a>
                 <a
                   href="#collabme"

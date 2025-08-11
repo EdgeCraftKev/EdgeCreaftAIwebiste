@@ -23,8 +23,7 @@ const Header: React.FC = (): JSX.Element => {
           
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-6 xl:space-x-8">
-            <a href="#about" className="text-gray-600 hover:text-gray-900 transition-colors">Features</a>
-            <a href="#solutions" className="text-gray-600 hover:text-gray-900 transition-colors">Solutions</a>
+            <a href="#about" className="text-gray-600 hover:text-gray-900 transition-colors">About</a>
             <a href="#collabme" className="text-gray-600 hover:text-gray-900 transition-colors">CollabMe</a>
             <a href="#pricing" className="text-gray-600 hover:text-gray-900 transition-colors">Pricing</a>
             <button 

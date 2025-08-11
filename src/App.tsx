@@ -481,16 +481,61 @@ const App: React.FC = () => {
       </section>
 
       {/* Team Section - AI Expertise for the New Era */}
-      <section className="py-12 lg:py-16 bg-white">
+      <section id="about" className="py-12 lg:py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
+            <div className="flex justify-center mb-4">
+              <img 
+                src="/EdgeCraft AI Logo.jpg" 
+                alt="EdgeCraft AI" 
+                className="h-16 sm:h-20 w-auto"
+              />
+            </div>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4 leading-tight">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
-                AI Expertise for the New Era
+                EdgeCraft AI: Expertise for the New Era
               </span>
             </h2>
             <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-8">
-              Our founding team brings over 60 years of combined experience in cloud architecture, software development, startup scaling, strategic alliances, and go-to-market execution.
+              EdgeCraft AI is at the forefront of transformational technology, building intelligent applications that harness artificial intelligence to improve life on Earth. Our founding team brings over 60 years of combined experience in cloud architecture, software development, startup scaling, strategic alliances, and go-to-market execution.
+            </p>
+            
+            {/* Mission Statement */}
+            <div className="bg-gradient-to-r from-blue-50 via-purple-50 to-pink-50 rounded-2xl p-6 mb-8 max-w-4xl mx-auto">
+              <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
+                  Our Mission
+                </span>
+              </h3>
+              <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
+                We create transformational applications that connect people, preserve memories, and enhance human experiences. Through cutting-edge AI technology, we're building the tools that bring families together, help businesses collaborate more effectively, and ensure that life's most important moments are never lost.
+              </p>
+            </div>
+            
+            {/* Core Values */}
+            <div className="grid sm:grid-cols-3 gap-6 mb-12 max-w-5xl mx-auto">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Sparkles className="h-8 w-8 text-white" />
+                </div>
+                <h4 className="text-lg font-bold text-gray-900 mb-2">Innovation First</h4>
+                <p className="text-gray-600">We leverage the latest AI technologies to solve real-world problems</p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Heart className="h-8 w-8 text-white" />
+                </div>
+                <h4 className="text-lg font-bold text-gray-900 mb-2">Human-Centered</h4>
+                <p className="text-gray-600">Every application we build focuses on improving human connection and experience</p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-gradient-to-r from-indigo-500 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Users className="h-8 w-8 text-white" />
+                </div>
+                <h4 className="text-lg font-bold text-gray-900 mb-2">Global Impact</h4>
+                <p className="text-gray-600">Our solutions scale to improve life on Earth for people everywhere</p>
+              </div>
+            </div>
             </p>
           </div>
           
