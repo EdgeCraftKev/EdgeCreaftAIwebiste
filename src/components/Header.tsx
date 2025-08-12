@@ -26,12 +26,13 @@ const Header: React.FC = (): JSX.Element => {
             <a href="#about" className="text-gray-600 hover:text-gray-900 transition-colors">About</a>
             <a href="#collabme" className="text-gray-600 hover:text-gray-900 transition-colors">CollabMe</a>
             <a href="#pricing" className="text-gray-600 hover:text-gray-900 transition-colors">Pricing</a>
-            <button 
+            <a 
+              href="mailto:hello@edgecraftai.com?subject=General%20Inquiry%20-%20EdgeCraft%20AI&body=Hi%20EdgeCraft%20AI%20team,%0A%0AI'm%20interested%20in%20learning%20more%20about%20EdgeCraft%20AI%20and%20your%20services.%0A%0APlease%20get%20in%20touch%20to%20discuss:%0A%0A-%20%0A-%20%0A-%20%0A%0AThank%20you!"
               className="bg-gradient-to-r from-pink-500 to-purple-500 text-white px-4 xl:px-6 py-2 rounded-full hover:from-pink-600 hover:to-purple-600 transition-all touch-manipulation text-sm xl:text-base"
               aria-label="Get started with CollabMe"
             >
               Get Started
-            </button>
+            </a>
           </nav>
 
           {/* Mobile Menu */}
