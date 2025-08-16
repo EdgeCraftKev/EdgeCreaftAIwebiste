@@ -586,7 +586,7 @@ const App: React.FC = () => {
               <img 
                 src="/EdgeCraft Founders Avatar.jpg" 
                 alt="EdgeCraft AI Founders" 
-                className="h-32 w-32 sm:h-40 sm:w-40 rounded-full object-cover shadow-lg"
+               className="h-32 w-48 sm:h-40 sm:w-60 rounded-2xl object-cover shadow-lg"
                 loading="lazy"
               />
             </div>
@@ -596,7 +596,7 @@ const App: React.FC = () => {
               </span>
             </h3>
             <p className="text-gray-300 text-base sm:text-lg mb-8 max-w-4xl mx-auto leading-relaxed">
-              Kevin Fleming has deep entrepreneurial experience having led marketing efforts for leading edge technology companies, Anne Wheatly has built buyer and seller alliances for the likes of Google and Microsoft, while CTO Joe Sumpeter has innovated on the leading edge for companies like Home Depot and Starbucks. From Fortune 500 enterprises to high-growth startups, our team has consistently delivered transformational technology solutions that drive real business outcomes.
+             <a href="https://www.linkedin.com/in/finavedec/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">Kevin Fleming</a> has deep entrepreneurial experience having led marketing efforts for leading edge technology companies, <a href="https://www.linkedin.com/in/annewheatley/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">Anne Wheatly</a> has built buyer and seller alliances for the likes of Google and Microsoft, while <a href="https://www.linkedin.com/in/jsumpter/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">CTO Joe Sumpeter</a> has innovated on the leading edge for companies like Home Depot and Starbucks. From Fortune 500 enterprises to high-growth startups, our team has consistently delivered transformational technology solutions that drive real business outcomes.
             </p>
             
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
