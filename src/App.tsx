@@ -582,13 +582,21 @@ const App: React.FC = () => {
           
           {/* Technology Leadership */}
           <div className="bg-gradient-to-r from-gray-900 to-gray-800 rounded-3xl p-8 text-white text-center">
+            <div className="flex justify-center mb-6">
+              <img 
+                src="/EdgeCraft Founders Avatar.jpg" 
+                alt="EdgeCraft AI Founders" 
+                className="h-32 w-32 sm:h-40 sm:w-40 rounded-full object-cover shadow-lg"
+                loading="lazy"
+              />
+            </div>
             <h3 className="text-2xl sm:text-3xl font-bold mb-4">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
                 Technology Leadership That Delivers
               </span>
             </h3>
-            <p className="text-gray-300 text-lg mb-8 max-w-3xl mx-auto leading-relaxed">
-              From Fortune 500 enterprises to high-growth startups, our team has consistently delivered transformational technology solutions that drive real business outcomes.
+            <p className="text-gray-300 text-base sm:text-lg mb-8 max-w-4xl mx-auto leading-relaxed">
+              Kevin Fleming has deep entrepreneurial experience having led marketing efforts for leading edge technology companies, Anne Wheatly has built buyer and seller alliances for the likes of Google and Microsoft, while CTO Joe Sumpeter has innovated on the leading edge for companies like Home Depot and Starbucks. From Fortune 500 enterprises to high-growth startups, our team has consistently delivered transformational technology solutions that drive real business outcomes.
             </p>
             
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
