@@ -90,7 +90,7 @@ const App: React.FC = () => {
           <div className="text-center">
             <div className="flex justify-center mb-4">
               <img 
-                src="/collbmelogo.svg" 
+                src="/COLLAB_ME_LOGO_FINAL-07.svg" 
                 alt="CollabMe" 
                 className="h-16 sm:h-20 lg:h-24 w-auto max-w-xs"
                 loading="eager"
@@ -208,7 +208,7 @@ const App: React.FC = () => {
             <div>
               <div className="flex items-center space-x-3 mb-4">
                 <img 
-                  src="/collbmelogo.svg" 
+                  src="/COLLAB_ME_LOGO_FINAL-07.svg" 
                   alt="CollabMe" 
                   className="h-8 w-auto"
                   loading="lazy"
@@ -289,7 +289,7 @@ const App: React.FC = () => {
           <div className="text-center mb-12">
             <div className="flex justify-center mb-4">
               <img 
-                src="/collbmelogo.svg" 
+                src="/COLLAB_ME_LOGO_FINAL-07.svg" 
                 alt="CollabMe" 
                 className="h-10 sm:h-12 w-auto max-w-xs"
                 loading="lazy"
