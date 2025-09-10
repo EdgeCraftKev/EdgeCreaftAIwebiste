@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import { 
   Heart, 
   Video, 
@@ -12,8 +13,15 @@ import {
   Linkedin
 } from 'lucide-react';
 import Header from './components/Header';
+import LegalPage from './components/LegalPage';
 
 const App: React.FC = () => {
+  const [currentPage, setCurrentPage] = useState<'home' | 'legal'>('home');
+
+  if (currentPage === 'legal') {
+    return <LegalPage onBack={() => setCurrentPage('home')} />;
+  }
+
   return (
     <div className="min-h-screen bg-white">
       <Header />
@@ -699,7 +707,15 @@ const App: React.FC = () => {
           </div>
           
           <div className="border-t border-gray-800 mt-8 pt-6 text-center text-gray-400 text-sm">
-            <p>&copy; 2025 EdgeCraft AI. All rights reserved.</p>
+            <div className="flex flex-col sm:flex-row justify-center items-center space-y-2 sm:space-y-0 sm:space-x-4">
+              <p>&copy; 2025 EdgeCraft AI. All rights reserved.</p>
+              <button 
+                onClick={() => setCurrentPage('legal')}
+                className="text-gray-400 hover:text-white transition-colors underline touch-manipulation"
+              >
+                Legal Documents
+              </button>
+            </div>
           </div>
         </div>
       </footer>
