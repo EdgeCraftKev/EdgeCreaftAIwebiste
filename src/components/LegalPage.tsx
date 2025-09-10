@@ -1,21 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 
-interface LegalPageProps {
-  onBack: () => void;
-}
-
-const LegalPage: React.FC<LegalPageProps> = ({ onBack }) => {
+const LegalPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <button 
-          onClick={onBack}
+        <Link 
+          to="/"
           className="flex items-center space-x-2 text-blue-600 hover:text-blue-700 mb-8 touch-manipulation"
         >
           <ArrowLeft className="h-5 w-5" />
           <span>Back to Main Site</span>
-        </button>
+        </Link>
 
         <div className="prose prose-lg max-w-none">
           <div className="text-center mb-12">
