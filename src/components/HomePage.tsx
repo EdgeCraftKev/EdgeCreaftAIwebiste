@@ -163,18 +163,6 @@ const HomePage: React.FC = () => {
                 </div>
                 <p className="text-gray-700">AI organizes, tags, and syncs every perspective.</p>
               </div>
-              <div className="flex items-start space-x-3">
-                <div className="w-6 h-6 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <Sparkles className="h-3 w-3 text-white" />
-                </div>
-                <p className="text-gray-700">In seconds, create cinematic highlight reels — 10s, 1m, or 5m cuts.</p>
-              </div>
-              <div className="flex items-start space-x-3">
-                <div className="w-6 h-6 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <Sparkles className="h-3 w-3 text-white" />
-                </div>
-                <p className="text-gray-700">Share instantly across TikTok, Instagram, Facebook, and YouTube.</p>
-              </div>
             </div>
             
             <div className="text-center">
