@@ -118,6 +118,94 @@ const HomePage: React.FC = () => {
         </div>
       </section>
 
+      {/* Video Demo Section */}
+      <section className="py-12 lg:py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4 leading-tight">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500">
+                See CollabMe in Action
+              </span>
+            </h2>
+          </div>
+          
+          {/* Video Container */}
+          <div className="relative w-full max-w-3xl mx-auto mb-8">
+            <div className="relative pb-[56.25%] h-0 overflow-hidden rounded-2xl shadow-2xl">
+              <iframe 
+                className="absolute top-0 left-0 w-full h-full"
+                src="https://www.youtube-nocookie.com/embed/1nOQYBmJ3RQ?si=T4POq2ow9cjvBWKn" 
+                title="CollabMe Demo - Wedding Video Collaboration" 
+                frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerPolicy="strict-origin-when-cross-origin" 
+                allowFullScreen
+              />
+            </div>
+          </div>
+          
+          {/* Marketing Content */}
+          <div className="bg-gradient-to-r from-pink-50 via-purple-50 to-indigo-50 rounded-3xl p-8">
+            <p className="text-lg sm:text-xl text-gray-700 mb-6 leading-relaxed text-center max-w-3xl mx-auto">
+              Your wedding day is full of magical moments — but most of them stay scattered in your guests' camera rolls. CollabMe changes that.
+            </p>
+            
+            <div className="grid sm:grid-cols-2 gap-6 mb-8">
+              <div className="flex items-start space-x-3">
+                <div className="w-6 h-6 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <Sparkles className="h-3 w-3 text-white" />
+                </div>
+                <p className="text-gray-700">Guests scan a QR code and upload their clips.</p>
+              </div>
+              <div className="flex items-start space-x-3">
+                <div className="w-6 h-6 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <Sparkles className="h-3 w-3 text-white" />
+                </div>
+                <p className="text-gray-700">AI organizes, tags, and syncs every perspective.</p>
+              </div>
+              <div className="flex items-start space-x-3">
+                <div className="w-6 h-6 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <Sparkles className="h-3 w-3 text-white" />
+                </div>
+                <p className="text-gray-700">In seconds, create cinematic highlight reels — 10s, 1m, or 5m cuts.</p>
+              </div>
+              <div className="flex items-start space-x-3">
+                <div className="w-6 h-6 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <Sparkles className="h-3 w-3 text-white" />
+                </div>
+                <p className="text-gray-700">Share instantly across TikTok, Instagram, Facebook, and YouTube.</p>
+              </div>
+            </div>
+            
+            <div className="text-center">
+              <p className="text-lg font-semibold text-gray-900 mb-6">
+                With CollabMe, every laugh, every vow, every dance move comes together in one unforgettable story. 
+                <span className="block mt-2 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500">
+                  Many lenses. One story.
+                </span>
+              </p>
+              
+              {/* Pre-Launch Special */}
+              <div className="bg-white rounded-2xl shadow-lg p-6 max-w-2xl mx-auto">
+                <div className="flex items-center justify-center mb-4">
+                  <div className="bg-gradient-to-r from-pink-500 to-purple-500 text-white px-6 py-2 rounded-full text-sm font-bold">
+                    🎉 PRE-LAUNCH SPECIAL
+                  </div>
+                </div>
+                <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3">Get 50% Off Bronze & Silver Tiers</h3>
+                <p className="text-gray-700 mb-4">Lock in your discount when you sign up now. Limited time offer expires October 1st.</p>
+                <a 
+                  href="mailto:hello@edgecraftai.com?subject=CollabMe%20Pre-Launch%20Special%20-%2050%25%20Off&body=Hi%20EdgeCraft%20AI%20team,%0A%0AI%27m%20interested%20in%20taking%20advantage%20of%20the%20pre-launch%20special%20offer%20for%20CollabMe%20(50%25%20off%20Bronze%20%26%20Silver%20tiers).%0A%0APlease%20help%20me%20with:%0A%0A-%20Securing%20my%2050%25%20discount%0A-%20Setting%20up%20my%20CollabMe%20account%0A-%20Choosing%20the%20right%20plan%20for%20my%20event%0A%0AEvent%20details:%0A-%20Event%20type:%20%0A-%20Expected%20date:%20%0A-%20Estimated%20contributors:%20%0A-%20Preferred%20plan%20(Bronze%20or%20Silver):%20%0A%0AThank%20you!"
+                  className="bg-gradient-to-r from-pink-500 to-purple-500 text-white px-8 py-3 rounded-full font-semibold hover:from-pink-600 hover:to-purple-600 transition-all transform hover:scale-105 active:scale-95 inline-block touch-manipulation"
+                >
+                  Claim 50% Off Now
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Problems CollabMe Solves */}
       <section className="py-12 lg:py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
