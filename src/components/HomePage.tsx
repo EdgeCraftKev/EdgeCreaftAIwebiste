@@ -656,66 +656,6 @@ const HomePage: React.FC = () => {
               </div>
             </div>
           </div>
-          
-          {/* Technology Leadership */}
-          <div className="bg-gradient-to-r from-gray-900 to-gray-800 rounded-3xl p-8 text-white text-center">
-            <div className="flex justify-center mb-6">
-              <img 
-                src="/EdgeCraft Founders Avatar.jpg" 
-                alt="EdgeCraft AI Founders" 
-               className="h-32 w-48 sm:h-40 sm:w-60 rounded-2xl object-cover shadow-lg"
-                loading="lazy"
-              />
-            </div>
-            <h3 className="text-2xl sm:text-3xl font-bold mb-4">
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
-                Technology Leadership That Delivers
-              </span>
-            </h3>
-            <p className="text-gray-300 text-base sm:text-lg mb-8 max-w-4xl mx-auto leading-relaxed">
-              Kevin Fleming has deep entrepreneurial experience having led marketing efforts for leading edge technology companies, Anne Wheatley has built buyer and seller alliances for the likes of Google and Microsoft, while CTO Joe Sumpter has innovated on the leading edge for companies like Home Depot and Starbucks. From Fortune 500 enterprises to high-growth startups, our team has consistently delivered transformational technology solutions that drive real business outcomes.
-            </p>
-            
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              <div className="text-center">
-                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <Building2 className="h-6 w-6 text-white" />
-                </div>
-                <div className="text-2xl font-bold text-blue-400 mb-1">Fortune 500</div>
-                <div className="text-gray-400 text-sm">Enterprise Clients</div>
-              </div>
-              <div className="text-center">
-                <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <Sparkles className="h-6 w-6 text-white" />
-                </div>
-                <div className="text-2xl font-bold text-purple-400 mb-1">AI-First</div>
-                <div className="text-gray-400 text-sm">Architecture Approach</div>
-              </div>
-              <div className="text-center">
-                <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-red-500 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <Users className="h-6 w-6 text-white" />
-                </div>
-                <div className="text-2xl font-bold text-pink-400 mb-1">Global</div>
-                <div className="text-gray-400 text-sm">Team Distribution</div>
-              </div>
-              <div className="text-center">
-                <div className="w-12 h-12 bg-gradient-to-r from-indigo-500 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <DollarSign className="h-6 w-6 text-white" />
-                </div>
-                <div className="text-2xl font-bold text-indigo-400 mb-1">Proven</div>
-                <div className="text-gray-400 text-sm">Revenue Growth</div>
-              </div>
-            </div>
-            
-            <div className="mt-8">
-              <a 
-                href="mailto:hello@edgecraftai.com?subject=EdgeCraft%20AI%20-%20Let's%20Connect&body=Hi%20EdgeCraft%20AI%20team,%0A%0AI'm%20interested%20in%20learning%20more%20about%20EdgeCraft%20AI%20and%20your%20transformational%20AI%20applications.%0A%0APlease%20get%20in%20touch%20to%20discuss:%0A%0A-%20%0A-%20%0A-%20%0A%0AThank%20you!"
-                className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-8 py-4 rounded-full font-semibold hover:from-blue-600 hover:to-purple-600 transition-all transform hover:scale-105 active:scale-95 inline-block touch-manipulation"
-              >
-                Connect with EdgeCraft
-              </a>
-            </div>
-          </div>
         </div>
       </section>
 
